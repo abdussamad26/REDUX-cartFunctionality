@@ -351,9 +351,19 @@ img {
 }
 @media (max-width : 767px) {
   .fashionova {
-    font-size: 80px;
+    font-size: 68px;
+    margin-top: 45%;
   }
   .navbar-toggler-icon {
     display: none;
+  }
+  .icon {
+    font-size: 50px !important;
+  }
+  .cartPng {
+    display: none;
+  }
+  .drawer {
+    width: 225px !important;
   }
 }

@@ -147,7 +147,7 @@ const Navbar = ({}) => {
                                         anchor='right'
                                         open={isDrawerOpen}
                                         onClose={() => setIsDrawerOpen(false)}>
-                                        <Box p={2} width='350px' role='presentation' textAlign='center'>
+                                        <Box className='drawer' p={2} width='350px' role='presentation' textAlign='center'>
                                         <Typography variant='h6' component='div'>
                                             CART PRODUCT
                                         </Typography>
@@ -201,7 +201,7 @@ const Navbar = ({}) => {
                         <div className="col-lg-12 py-5 mt-5">
                             <h1 className='fashionova'>
                                 Fashio<ShoppingBagIcon className='icon'></ShoppingBagIcon>ova
-                                <img src={cartPng} alt="" />
+                                <img className='cartPng' src={cartPng} alt="" />
                             </h1>
                         </div>
                     </div>
